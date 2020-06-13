@@ -9,7 +9,7 @@ namespace Akef\MDTO;
  *
  * @package Akef\MDTO
  */
-trait SetAndGetHider
+trait SetAndGetProvider
 {
 
     /**
