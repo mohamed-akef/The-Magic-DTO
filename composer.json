@@ -1,0 +1,21 @@
+{
+  "name": "akef/the-magic-dto",
+  "description": "The Magic DTO",
+  "type": "library",
+  "minimum-stability": "dev",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "mohamed-akef",
+      "email": "medoakef@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Akef\\MDTO\\": "src/"
+    }
+  }
+}
