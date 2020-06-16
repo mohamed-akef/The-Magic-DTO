@@ -7,7 +7,7 @@ This library provides functionality to access the class property with setter and
 Use the package manager [composer](https://getcomposer.org/doc/00-intro.md) to install The-Magic-DTO.
 
 ```bash
-composer require akef/the-magic-dto
+composer require akef/the-magic-dto:dev-master
 ```
 
 ## Usage
