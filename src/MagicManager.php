@@ -6,7 +6,7 @@ use Akef\MDTO\Handlers\HandlerFactory;
 use Akef\MDTO\Helpers\ObjectHelper;
 use Akef\MDTO\Helpers\StringHelper;
 
-class MagicManger
+class MagicManager
 {
 
     /**
@@ -46,7 +46,7 @@ class MagicManger
      *
      * @return $this
      */
-    public function init($requestedClass, $name, $arguments): MagicManger
+    public function init($requestedClass, $name, $arguments): MagicManager
     {
         $this->functionName = $name;
         $this->functionArgument = ($arguments[0] ?? null);

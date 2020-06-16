@@ -21,6 +21,6 @@ trait SetAndGetProvider
      */
     public function __call($name, $arguments)
     {
-        return (new MagicManger())->init($this, $name, $arguments)->run();
+        return (new MagicManager())->init($this, $name, $arguments)->run();
     }
 }

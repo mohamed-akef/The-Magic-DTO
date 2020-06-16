@@ -20,7 +20,7 @@ or call The magic class in your class ```__call``` magic function like:
 ```php
 public function __call($name, $arguments)
 {
-    return (new \Akef\MDTO\MagicManger())->init($this, $name, $arguments)->run();
+    return (new \Akef\MDTO\MagicManager())->init($this, $name, $arguments)->run();
 }
 ```
 ## Example
