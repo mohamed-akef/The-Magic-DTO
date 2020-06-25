@@ -34,7 +34,7 @@ class Test
     private $foo;
 }
 
-$testObject = new test();
+$testObject = new Test();
 
 $test->setFoo('It is working!');
 $fooValue = $testObject->getFoo();
